@@ -4,17 +4,18 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
-
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+QT += widgets multimedia
 
 TARGET = LightMusic
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        lightplayer.cpp
+SOURCES += src/main.cpp\
+           src/audiooutput.cpp \
+           src/lightplayer.cpp
 
-HEADERS  += lightplayer.h
+HEADERS  += src/audiooutput.h \
+            src/lightplayer.h
 
-FORMS    += lightplayer.ui
+
+FORMS    += form/lightplayer.ui

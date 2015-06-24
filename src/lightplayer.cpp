@@ -1,4 +1,5 @@
 #include "lightplayer.h"
+#include "audiooutput.h"
 #include "ui_lightplayer.h"
 
 lightPlayer::lightPlayer(QWidget *parent) :
