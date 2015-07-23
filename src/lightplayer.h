@@ -18,18 +18,6 @@ namespace Ui {
 class lightPlayer;
 }
 
-class lightPlayer : public QMainWindow
-{
-    Q_OBJECT
-
-public:
-    explicit lightPlayer(QWidget *parent = 0);
-    ~lightPlayer();
-
-private:
-    Ui::lightPlayer *ui;
-};
-
 class Generator : public QIODevice
 {
     Q_OBJECT
@@ -43,7 +31,6 @@ public:
 
     qint64 readData(char *data, qint64 maxlen);
     qint64 writeData(const char *data, qint64 len);
-    qint64 bytesAvailable() const;
 
 private:
     void generateData(const QAudioFormat &format, qint64 durationUs, int sampleRate);
@@ -53,43 +40,32 @@ private:
     QByteArray m_buffer;
 };
 
-class AudioTest : public QMainWindow
+class lightPlayer : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    AudioTest();
-    ~AudioTest();
+    explicit lightPlayer(QWidget *parent = 0);
+    ~lightPlayer();
 
 private:
-    void initializeWindow();
     void initializeAudio();
     void createAudioOutput();
 
 private:
-    QTimer *m_pullTimer;
-
-    // Owned by layout
-    QPushButton *m_modeButton;
-    QPushButton *m_suspendResumeButton;
-    QComboBox *m_deviceBox;
-    QLabel *m_volumeLabel;
-    QSlider *m_volumeSlider;
-
     QAudioDeviceInfo m_device;
     Generator *m_generator;
     QAudioOutput *m_audioOutput;
     QIODevice *m_output; // not owned
     QAudioFormat m_format;
-
-    bool m_pullMode;
     QByteArray m_buffer;
 
 private slots:
-    void pullTimerExpired();
-    void toggleMode();
     void toggleSuspendResume();
-    void deviceChanged(int index);
-    void volumeChanged(int);
+    void on_pushButton_pressed();
+
+private:
+    Ui::lightPlayer *ui;
 };
+
 #endif // LIGHTPLAYER_H

@@ -5,10 +5,7 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     lightPlayer w;
-    //w.show();
-
-    AudioTest audio;
-    audio.show();
+    w.show();
 
     return a.exec();
 }
