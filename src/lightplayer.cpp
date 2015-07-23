@@ -8,8 +8,8 @@
 #include "lightplayer.h"
 #include "ui_lightplayer.h"
 
+int ToneSampleRateHz;
 const int DurationSeconds = 1;
-const int ToneSampleRateHz = 600;
 const int DataSampleRateHz = 44100;
 const int BufferSize      = 32768;
 
@@ -134,18 +134,18 @@ void lightPlayer::initializeAudio()
         qWarning() << "Default format not supported - trying to use nearest";
         m_format = info.nearestFormat(m_format);
     }
-
-    m_generator = new Generator(m_format, DurationSeconds*1000000, ToneSampleRateHz, this);
-    createAudioOutput();
 }
 
 void lightPlayer::createAudioOutput()
 {
+    delete m_generator;
     delete m_audioOutput;
+    m_generator = new Generator(m_format, DurationSeconds*1000000, ToneSampleRateHz, this);
     m_audioOutput = 0;
     m_audioOutput = new QAudioOutput(m_device, m_format, this);
     m_generator->start();
     m_audioOutput->start(m_generator);
+    toggleSuspendResume();
 }
 
 void lightPlayer::toggleSuspendResume()
@@ -161,12 +161,19 @@ void lightPlayer::toggleSuspendResume()
     }
 }
 
+void lightPlayer::on_pushButton_pressed()
+{
+    ToneSampleRateHz = 600;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+
+void lightPlayer::on_pushButton_released()
+{
+    toggleSuspendResume();
+}
+
 lightPlayer::~lightPlayer()
 {
     delete ui;
-}
-
-void lightPlayer::on_pushButton_pressed()
-{
-    toggleSuspendResume();
 }
