@@ -62,9 +62,14 @@ private:
 
 private slots:
     void toggleSuspendResume();
-    void on_pushButton_pressed();
 
-    void on_pushButton_released();
+    //--Red
+    void on_red0_pressed();
+    void on_red0_released();
+    void on_redU1_pressed();
+    void on_redU1_released();
+    void on_redD1_pressed();
+    void on_redD1_released();
 
 private:
     Ui::lightPlayer *ui;

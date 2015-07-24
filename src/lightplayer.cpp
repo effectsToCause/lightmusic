@@ -26,6 +26,8 @@ lightPlayer::lightPlayer(QWidget *parent)
     ui->setupUi(this);
 }
 
+/*///////////////////audio generation/////////////////////////*/
+
 Generator::Generator(const QAudioFormat &format,
                      qint64 durationUs,
                      int sampleRate,
@@ -161,17 +163,42 @@ void lightPlayer::toggleSuspendResume()
     }
 }
 
-void lightPlayer::on_pushButton_pressed()
+/*///////////////////instrument player/////////////////////////*/
+
+
+//---Red
+void lightPlayer::on_redD1_released()
 {
-    ToneSampleRateHz = 600;
+    toggleSuspendResume();
+}
+void lightPlayer::on_redD1_pressed()
+{
+    ToneSampleRateHz = 196;
     createAudioOutput();
     toggleSuspendResume();
 }
-
-void lightPlayer::on_pushButton_released()
+void lightPlayer::on_red0_pressed()
+{
+    ToneSampleRateHz = 392;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_red0_released()
 {
     toggleSuspendResume();
 }
+void lightPlayer::on_redU1_pressed()
+{
+    ToneSampleRateHz = 784;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_redU1_released()
+{
+    toggleSuspendResume();
+}
+
+
 
 lightPlayer::~lightPlayer()
 {
