@@ -165,40 +165,390 @@ void lightPlayer::toggleSuspendResume()
 
 /*///////////////////instrument player/////////////////////////*/
 
+//---Infrared/Red
+void lightPlayer::on_IRu1_pressed()
+{
+    ToneSampleRateHz = 740;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_IR0_pressed()
+{
+    ToneSampleRateHz = 370;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_IRd1_pressed()
+{
+    ToneSampleRateHz = 185;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_IRu1_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_IR0_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_IRd1_released()
+{
+    toggleSuspendResume();
+}
 
 //---Red
-void lightPlayer::on_redD1_released()
-{
-    toggleSuspendResume();
-}
-void lightPlayer::on_redD1_pressed()
-{
-    ToneSampleRateHz = 196;
-    createAudioOutput();
-    toggleSuspendResume();
-}
-void lightPlayer::on_red0_pressed()
-{
-    ToneSampleRateHz = 392;
-    createAudioOutput();
-    toggleSuspendResume();
-}
-void lightPlayer::on_red0_released()
-{
-    toggleSuspendResume();
-}
-void lightPlayer::on_redU1_pressed()
+void lightPlayer::on_Ru1_pressed()
 {
     ToneSampleRateHz = 784;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_redU1_released()
+void lightPlayer::on_R0_pressed()
+{
+    ToneSampleRateHz = 392;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_Rd1_pressed()
+{
+    ToneSampleRateHz = 196;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_Ru1_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_R0_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_Rd1_released()
 {
     toggleSuspendResume();
 }
 
 
+//---Red/Orange
+void lightPlayer::on_ROu1_pressed()
+{
+    ToneSampleRateHz = 830;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_RO0_pressed()
+{
+    ToneSampleRateHz = 415;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_ROd1_pressed()
+{
+    ToneSampleRateHz = 208;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_ROu1_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_RO0_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_ROd1_released()
+{
+    toggleSuspendResume();
+}
+
+//---Orange
+void lightPlayer::on_Ou1_pressed()
+{
+    ToneSampleRateHz = 880;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_O0_pressed()
+{
+    ToneSampleRateHz = 440;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_Od1_pressed()
+{
+    ToneSampleRateHz = 220;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_Ou1_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_O0_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_Od1_released()
+{
+    toggleSuspendResume();
+}
+
+//---Yellow
+void lightPlayer::on_Yu1_pressed()
+{
+    ToneSampleRateHz = 932;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_Y0_pressed()
+{
+    ToneSampleRateHz = 466;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_Yd1_pressed()
+{
+    ToneSampleRateHz = 233;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_Yu1_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_Y0_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_Yd1_released()
+{
+    toggleSuspendResume();
+}
+
+//---Yellow/Green
+void lightPlayer::on_YGu1_pressed()
+{
+    ToneSampleRateHz = 988;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_YG0_pressed()
+{
+    ToneSampleRateHz = 494;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_YGd1_pressed()
+{
+    ToneSampleRateHz = 247;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_YGu1_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_YG0_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_YGd1_released()
+{
+    toggleSuspendResume();
+}
+
+//---Green
+void lightPlayer::on_Gu1_pressed()
+{
+    ToneSampleRateHz = 1046;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_G0_pressed()
+{
+    ToneSampleRateHz = 523;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_Gd1_pressed()
+{
+    ToneSampleRateHz = 262;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_Gu1_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_G0_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_Gd1_released()
+{
+    toggleSuspendResume();
+}
+
+//---Green/Blue
+void lightPlayer::on_GBu1_pressed()
+{
+    ToneSampleRateHz = 1108;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_GB0_pressed()
+{
+    ToneSampleRateHz = 554;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_GBd1_pressed()
+{
+    ToneSampleRateHz = 277;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_GBu1_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_GB0_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_GBd1_released()
+{
+    toggleSuspendResume();
+}
+
+//---Blue
+void lightPlayer::on_Bu1_pressed()
+{
+    ToneSampleRateHz = 1174;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_B0_pressed()
+{
+    ToneSampleRateHz = 587;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_Bd1_pressed()
+{
+    ToneSampleRateHz = 294;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_Bu1_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_B0_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_Bd1_released()
+{
+    toggleSuspendResume();
+}
+
+//---Blue/Violet
+void lightPlayer::on_BVu1_pressed()
+{
+    ToneSampleRateHz = 1244;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_BV0_pressed()
+{
+    ToneSampleRateHz = 622;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_BVd1_pressed()
+{
+    ToneSampleRateHz = 311;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_BVu1_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_BV0_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_BVd1_released()
+{
+    toggleSuspendResume();
+}
+
+//---Violet
+void lightPlayer::on_Vu1_pressed()
+{
+    ToneSampleRateHz = 1320;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_V0_pressed()
+{
+    ToneSampleRateHz = 660;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_Vd1_pressed()
+{
+    ToneSampleRateHz = 330;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_Vu1_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_V0_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_Vd1_released()
+{
+    toggleSuspendResume();
+}
+
+//---Ultra/Violet
+void lightPlayer::on_UVu1_pressed()
+{
+    ToneSampleRateHz = 1400;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_UV0_pressed()
+{
+    ToneSampleRateHz = 700;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_UVd1_pressed()
+{
+    ToneSampleRateHz = 350;
+    createAudioOutput();
+    toggleSuspendResume();
+}
+void lightPlayer::on_UVu1_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_UV0_released()
+{
+    toggleSuspendResume();
+}
+void lightPlayer::on_UVd1_released()
+{
+    toggleSuspendResume();
+}
 
 lightPlayer::~lightPlayer()
 {

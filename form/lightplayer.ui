@@ -20,7 +20,7 @@
    <string notr="true">QWidget { background: black; border: none; } </string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QPushButton" name="Ired0">
+   <widget class="QPushButton" name="IR0">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -47,7 +47,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="IredD1">
+   <widget class="QPushButton" name="IRd1">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -74,7 +74,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="IredU1">
+   <widget class="QPushButton" name="IRu1">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -101,7 +101,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redU1">
+   <widget class="QPushButton" name="Ru1">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -128,7 +128,7 @@ QPushButton:pressed { background: #FF6666; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="red0">
+   <widget class="QPushButton" name="R0">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -155,7 +155,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redD1">
+   <widget class="QPushButton" name="Rd1">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -182,7 +182,7 @@ QPushButton:pressed { background: #990000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redU1_3">
+   <widget class="QPushButton" name="ROu1">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -209,7 +209,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="red0_3">
+   <widget class="QPushButton" name="RO0">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -236,7 +236,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redD1_3">
+   <widget class="QPushButton" name="ROd1">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -263,7 +263,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redU1_4">
+   <widget class="QPushButton" name="Ou1">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -290,7 +290,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="red0_4">
+   <widget class="QPushButton" name="O0">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -317,7 +317,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redD1_4">
+   <widget class="QPushButton" name="Od1">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -344,7 +344,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redU1_5">
+   <widget class="QPushButton" name="Yu1">
     <property name="geometry">
      <rect>
       <x>340</x>
@@ -371,7 +371,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="red0_5">
+   <widget class="QPushButton" name="Y0">
     <property name="geometry">
      <rect>
       <x>340</x>
@@ -398,7 +398,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redD1_5">
+   <widget class="QPushButton" name="Yd1">
     <property name="geometry">
      <rect>
       <x>340</x>
@@ -425,7 +425,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redU1_6">
+   <widget class="QPushButton" name="YGu1">
     <property name="geometry">
      <rect>
       <x>420</x>
@@ -452,7 +452,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="red0_6">
+   <widget class="QPushButton" name="YG0">
     <property name="geometry">
      <rect>
       <x>420</x>
@@ -479,7 +479,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redD1_6">
+   <widget class="QPushButton" name="YGd1">
     <property name="geometry">
      <rect>
       <x>420</x>
@@ -506,7 +506,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redU1_7">
+   <widget class="QPushButton" name="Gu1">
     <property name="geometry">
      <rect>
       <x>500</x>
@@ -533,7 +533,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="red0_7">
+   <widget class="QPushButton" name="G0">
     <property name="geometry">
      <rect>
       <x>500</x>
@@ -560,7 +560,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redD1_7">
+   <widget class="QPushButton" name="Gd1">
     <property name="geometry">
      <rect>
       <x>500</x>
@@ -587,7 +587,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redU1_8">
+   <widget class="QPushButton" name="GBu1">
     <property name="geometry">
      <rect>
       <x>580</x>
@@ -614,7 +614,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="red0_8">
+   <widget class="QPushButton" name="GB0">
     <property name="geometry">
      <rect>
       <x>580</x>
@@ -641,7 +641,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redD1_8">
+   <widget class="QPushButton" name="GBd1">
     <property name="geometry">
      <rect>
       <x>580</x>
@@ -668,7 +668,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redU1_9">
+   <widget class="QPushButton" name="Bu1">
     <property name="geometry">
      <rect>
       <x>660</x>
@@ -695,7 +695,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="red0_9">
+   <widget class="QPushButton" name="B0">
     <property name="geometry">
      <rect>
       <x>660</x>
@@ -722,7 +722,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redD1_9">
+   <widget class="QPushButton" name="Bd1">
     <property name="geometry">
      <rect>
       <x>660</x>
@@ -749,7 +749,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redU1_10">
+   <widget class="QPushButton" name="BVu1">
     <property name="geometry">
      <rect>
       <x>740</x>
@@ -776,7 +776,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="red0_10">
+   <widget class="QPushButton" name="BV0">
     <property name="geometry">
      <rect>
       <x>740</x>
@@ -803,7 +803,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redD1_10">
+   <widget class="QPushButton" name="BVd1">
     <property name="geometry">
      <rect>
       <x>740</x>
@@ -830,7 +830,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redU1_11">
+   <widget class="QPushButton" name="Vu1">
     <property name="geometry">
      <rect>
       <x>820</x>
@@ -857,7 +857,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="red0_11">
+   <widget class="QPushButton" name="V0">
     <property name="geometry">
      <rect>
       <x>820</x>
@@ -884,7 +884,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redD1_11">
+   <widget class="QPushButton" name="Vd1">
     <property name="geometry">
      <rect>
       <x>820</x>
@@ -911,7 +911,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redU1_12">
+   <widget class="QPushButton" name="UVu1">
     <property name="geometry">
      <rect>
       <x>900</x>
@@ -938,7 +938,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="red0_12">
+   <widget class="QPushButton" name="UV0">
     <property name="geometry">
      <rect>
       <x>900</x>
@@ -965,7 +965,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="redD1_12">
+   <widget class="QPushButton" name="UVd1">
     <property name="geometry">
      <rect>
       <x>900</x>
