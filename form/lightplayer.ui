@@ -36,9 +36,9 @@
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #BF0040; border: none; } 
-QPushButton:hover { background: #BF0040; } 
-QPushButton:pressed { background: #BF0040; } </string>
+     <string notr="true">QPushButton { background: #D40000; border: none; } 
+QPushButton:hover { background: #D40000; } 
+QPushButton:pressed { background: #D40000; } </string>
     </property>
     <property name="text">
      <string/>
@@ -63,9 +63,9 @@ QPushButton:pressed { background: #BF0040; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #6A0000; border: none; } 
+QPushButton:hover { background: #6A0000; } 
+QPushButton:pressed { background: #6A0000; } </string>
     </property>
     <property name="text">
      <string/>
@@ -90,9 +90,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #E98080; border: none; } 
+QPushButton:hover { background: #E98080; } 
+QPushButton:pressed { background: #E98080; } </string>
     </property>
     <property name="text">
      <string/>
@@ -198,9 +198,9 @@ QPushButton:pressed { background: #800000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #FFA080; border: none; } 
+QPushButton:hover { background: #FFA080; } 
+QPushButton:pressed { background: #FFA080; } </string>
     </property>
     <property name="text">
      <string/>
@@ -252,9 +252,9 @@ QPushButton:pressed { background: #FF4000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #802000; border: none; } 
+QPushButton:hover { background: #802000; } 
+QPushButton:pressed { background: #802000; } </string>
     </property>
     <property name="text">
      <string/>
@@ -279,9 +279,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #FFBF80; border: none; } 
+QPushButton:hover { background: #FFBF80; } 
+QPushButton:pressed { background: #FFBF80; } </string>
     </property>
     <property name="text">
      <string/>
@@ -333,9 +333,9 @@ QPushButton:pressed { background: #FF8000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #804000; border: none; } 
+QPushButton:hover { background: #804000; } 
+QPushButton:pressed { background: #804000; } </string>
     </property>
     <property name="text">
      <string/>
@@ -360,9 +360,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #FFFF80; border: none; } 
+QPushButton:hover { background: #FFFF80; } 
+QPushButton:pressed { background: #FFFF80; } </string>
     </property>
     <property name="text">
      <string/>
@@ -414,9 +414,9 @@ QPushButton:pressed { background: #FFFF00; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #808000; border: none; } 
+QPushButton:hover { background: #808000; } 
+QPushButton:pressed { background: #808000; } </string>
     </property>
     <property name="text">
      <string/>
@@ -441,9 +441,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #BFFF80; border: none; } 
+QPushButton:hover { background: #BFFF80; } 
+QPushButton:pressed { background: #BFFF80; } </string>
     </property>
     <property name="text">
      <string/>
@@ -495,9 +495,9 @@ QPushButton:pressed { background: #80FF00; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #408000; border: none; } 
+QPushButton:hover { background: #408000; } 
+QPushButton:pressed { background: #408000; } </string>
     </property>
     <property name="text">
      <string/>
@@ -522,9 +522,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #80FF80; border: none; } 
+QPushButton:hover { background: #80FF80; } 
+QPushButton:pressed { background: #80FF80; } </string>
     </property>
     <property name="text">
      <string/>
@@ -576,9 +576,9 @@ QPushButton:pressed { background: #00FF00; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #008000; border: none; } 
+QPushButton:hover { background: #008000; } 
+QPushButton:pressed { background: #008000; } </string>
     </property>
     <property name="text">
      <string/>
@@ -603,9 +603,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #80BFBF; border: none; } 
+QPushButton:hover { background: #80BFBF; } 
+QPushButton:pressed { background: #80BFBF; } </string>
     </property>
     <property name="text">
      <string/>
@@ -657,9 +657,9 @@ QPushButton:pressed { background: #008080; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #004040; border: none; } 
+QPushButton:hover { background: #004040; } 
+QPushButton:pressed { background: #004040; } </string>
     </property>
     <property name="text">
      <string/>
@@ -684,9 +684,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #8080FF; border: none; } 
+QPushButton:hover { background: #8080FF; } 
+QPushButton:pressed { background: #8080FF; } </string>
     </property>
     <property name="text">
      <string/>
@@ -738,9 +738,9 @@ QPushButton:pressed { background: #0000FF; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #000080; border: none; } 
+QPushButton:hover { background: #000080; } 
+QPushButton:pressed { background: #000080; } </string>
     </property>
     <property name="text">
      <string/>
@@ -765,9 +765,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #A080DF; border: none; } 
+QPushButton:hover { background: #A080DF; } 
+QPushButton:pressed { background: #A080DF; } </string>
     </property>
     <property name="text">
      <string/>
@@ -819,9 +819,9 @@ QPushButton:pressed { background: #4000BF; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #20005F; border: none; } 
+QPushButton:hover { background: #20005F; } 
+QPushButton:pressed { background: #20005F; } </string>
     </property>
     <property name="text">
      <string/>
@@ -846,9 +846,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #BF80BF; border: none; } 
+QPushButton:hover { background: #BF80BF; } 
+QPushButton:pressed { background: #BF80BF; } </string>
     </property>
     <property name="text">
      <string/>
@@ -900,9 +900,9 @@ QPushButton:pressed { background: #800080; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #400040; border: none; } 
+QPushButton:hover { background: #400040; } 
+QPushButton:pressed { background: #400040; } </string>
     </property>
     <property name="text">
      <string/>
@@ -927,9 +927,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #D480AA; border: none; } 
+QPushButton:hover { background: #D480AA; } 
+QPushButton:pressed { background: #D480AA; } </string>
     </property>
     <property name="text">
      <string/>
@@ -981,9 +981,9 @@ QPushButton:pressed { background: #AA0055; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #600020; border: none; } 
+QPushButton:hover { background: #600020; } 
+QPushButton:pressed { background: #600020; } </string>
     </property>
     <property name="text">
      <string/>
@@ -1010,7 +1010,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <string notr="true">QLabel {color: white;}</string>
     </property>
     <property name="text">
-     <string>  LightMusic Player 0.1</string>
+     <string>  Light Music Player 0.1</string>
     </property>
    </widget>
   </widget>
