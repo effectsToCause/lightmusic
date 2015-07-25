@@ -20,7 +20,7 @@
    <string notr="true">QWidget { background: black; border: none; } </string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QPushButton" name="IR0">
+   <widget class="QPushButton" name="IR0Button">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -36,9 +36,9 @@
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #BF0040; border: none; } 
+QPushButton:hover { background: #BF0040; } 
+QPushButton:pressed { background: #BF0040; } </string>
     </property>
     <property name="text">
      <string/>
@@ -47,7 +47,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="IRd1">
+   <widget class="QPushButton" name="IRd1Button">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -74,7 +74,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="IRu1">
+   <widget class="QPushButton" name="IRu1Button">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -101,7 +101,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="Ru1">
+   <widget class="QPushButton" name="Ru1Button">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -117,9 +117,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #FF6666; border: none; } 
-QPushButton:hover { background: #FF6666; } 
-QPushButton:pressed { background: #FF6666; } </string>
+     <string notr="true">QPushButton { background: #FF8080; border: none; } 
+QPushButton:hover { background: #FF8080; } 
+QPushButton:pressed { background: #FF8080; } </string>
     </property>
     <property name="text">
      <string/>
@@ -128,7 +128,7 @@ QPushButton:pressed { background: #FF6666; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="R0">
+   <widget class="QPushButton" name="R0Button">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -155,7 +155,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="Rd1">
+   <widget class="QPushButton" name="Rd1Button">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -171,9 +171,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #990000; border: none; } 
-QPushButton:hover { background: #990000; } 
-QPushButton:pressed { background: #990000; } </string>
+     <string notr="true">QPushButton { background: #800000; border: none; } 
+QPushButton:hover { background: #800000; } 
+QPushButton:pressed { background: #800000; } </string>
     </property>
     <property name="text">
      <string/>
@@ -182,7 +182,7 @@ QPushButton:pressed { background: #990000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="ROu1">
+   <widget class="QPushButton" name="ROu1Button">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -209,7 +209,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="RO0">
+   <widget class="QPushButton" name="RO0Button">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -225,9 +225,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #FF4000; border: none; } 
+QPushButton:hover { background: #FF4000; } 
+QPushButton:pressed { background: #FF4000; } </string>
     </property>
     <property name="text">
      <string/>
@@ -236,7 +236,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="ROd1">
+   <widget class="QPushButton" name="ROd1Button">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -263,7 +263,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="Ou1">
+   <widget class="QPushButton" name="Ou1Button">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -290,7 +290,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="O0">
+   <widget class="QPushButton" name="O0Button">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -306,9 +306,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #FF8000; border: none; } 
+QPushButton:hover { background: #FF8000; } 
+QPushButton:pressed { background: #FF8000; } </string>
     </property>
     <property name="text">
      <string/>
@@ -317,7 +317,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="Od1">
+   <widget class="QPushButton" name="Od1Button">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -344,7 +344,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="Yu1">
+   <widget class="QPushButton" name="Yu1Button">
     <property name="geometry">
      <rect>
       <x>340</x>
@@ -371,7 +371,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="Y0">
+   <widget class="QPushButton" name="Y0Button">
     <property name="geometry">
      <rect>
       <x>340</x>
@@ -387,9 +387,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #FFFF00; border: none; } 
+QPushButton:hover { background: #FFFF00; } 
+QPushButton:pressed { background: #FFFF00; } </string>
     </property>
     <property name="text">
      <string/>
@@ -398,7 +398,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="Yd1">
+   <widget class="QPushButton" name="Yd1Button">
     <property name="geometry">
      <rect>
       <x>340</x>
@@ -425,7 +425,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="YGu1">
+   <widget class="QPushButton" name="YGu1Button">
     <property name="geometry">
      <rect>
       <x>420</x>
@@ -452,7 +452,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="YG0">
+   <widget class="QPushButton" name="YG0Button">
     <property name="geometry">
      <rect>
       <x>420</x>
@@ -468,9 +468,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #80FF00; border: none; } 
+QPushButton:hover { background: #80FF00; } 
+QPushButton:pressed { background: #80FF00; } </string>
     </property>
     <property name="text">
      <string/>
@@ -479,7 +479,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="YGd1">
+   <widget class="QPushButton" name="YGd1Button">
     <property name="geometry">
      <rect>
       <x>420</x>
@@ -506,7 +506,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="Gu1">
+   <widget class="QPushButton" name="Gu1Button">
     <property name="geometry">
      <rect>
       <x>500</x>
@@ -533,7 +533,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="G0">
+   <widget class="QPushButton" name="G0Button">
     <property name="geometry">
      <rect>
       <x>500</x>
@@ -549,9 +549,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #00FF00; border: none; } 
+QPushButton:hover { background: #00FF00; } 
+QPushButton:pressed { background: #00FF00; } </string>
     </property>
     <property name="text">
      <string/>
@@ -560,7 +560,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="Gd1">
+   <widget class="QPushButton" name="Gd1Button">
     <property name="geometry">
      <rect>
       <x>500</x>
@@ -587,7 +587,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="GBu1">
+   <widget class="QPushButton" name="GBu1Button">
     <property name="geometry">
      <rect>
       <x>580</x>
@@ -614,7 +614,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="GB0">
+   <widget class="QPushButton" name="GB0Button">
     <property name="geometry">
      <rect>
       <x>580</x>
@@ -630,9 +630,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #008080; border: none; } 
+QPushButton:hover { background: #008080; } 
+QPushButton:pressed { background: #008080; } </string>
     </property>
     <property name="text">
      <string/>
@@ -641,7 +641,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="GBd1">
+   <widget class="QPushButton" name="GBd1Button">
     <property name="geometry">
      <rect>
       <x>580</x>
@@ -668,7 +668,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="Bu1">
+   <widget class="QPushButton" name="Bu1Button">
     <property name="geometry">
      <rect>
       <x>660</x>
@@ -695,7 +695,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="B0">
+   <widget class="QPushButton" name="B0Button">
     <property name="geometry">
      <rect>
       <x>660</x>
@@ -711,9 +711,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #0000FF; border: none; } 
+QPushButton:hover { background: #0000FF; } 
+QPushButton:pressed { background: #0000FF; } </string>
     </property>
     <property name="text">
      <string/>
@@ -722,7 +722,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="Bd1">
+   <widget class="QPushButton" name="Bd1Button">
     <property name="geometry">
      <rect>
       <x>660</x>
@@ -749,7 +749,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="BVu1">
+   <widget class="QPushButton" name="BVu1Button">
     <property name="geometry">
      <rect>
       <x>740</x>
@@ -776,7 +776,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="BV0">
+   <widget class="QPushButton" name="BV0Button">
     <property name="geometry">
      <rect>
       <x>740</x>
@@ -792,9 +792,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #4000BF; border: none; } 
+QPushButton:hover { background: #4000BF; } 
+QPushButton:pressed { background: #4000BF; } </string>
     </property>
     <property name="text">
      <string/>
@@ -803,7 +803,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="BVd1">
+   <widget class="QPushButton" name="BVd1Button">
     <property name="geometry">
      <rect>
       <x>740</x>
@@ -830,7 +830,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="Vu1">
+   <widget class="QPushButton" name="Vu1Button">
     <property name="geometry">
      <rect>
       <x>820</x>
@@ -857,7 +857,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="V0">
+   <widget class="QPushButton" name="V0Button">
     <property name="geometry">
      <rect>
       <x>820</x>
@@ -873,9 +873,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #800080; border: none; } 
+QPushButton:hover { background: #800080; } 
+QPushButton:pressed { background: #800080; } </string>
     </property>
     <property name="text">
      <string/>
@@ -884,7 +884,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="Vd1">
+   <widget class="QPushButton" name="Vd1Button">
     <property name="geometry">
      <rect>
       <x>820</x>
@@ -911,7 +911,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="UVu1">
+   <widget class="QPushButton" name="UVu1Button">
     <property name="geometry">
      <rect>
       <x>900</x>
@@ -938,7 +938,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="UV0">
+   <widget class="QPushButton" name="UV0Button">
     <property name="geometry">
      <rect>
       <x>900</x>
@@ -954,9 +954,9 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton { background: #E60000; border: none; } 
-QPushButton:hover { background: #FF0000; } 
-QPushButton:pressed { background: #FF0000; } </string>
+     <string notr="true">QPushButton { background: #AA0055; border: none; } 
+QPushButton:hover { background: #AA0055; } 
+QPushButton:pressed { background: #AA0055; } </string>
     </property>
     <property name="text">
      <string/>
@@ -965,7 +965,7 @@ QPushButton:pressed { background: #FF0000; } </string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="UVd1">
+   <widget class="QPushButton" name="UVd1Button">
     <property name="geometry">
      <rect>
       <x>900</x>

@@ -166,386 +166,386 @@ void lightPlayer::toggleSuspendResume()
 /*///////////////////instrument player/////////////////////////*/
 
 //---Infrared/Red
-void lightPlayer::on_IRu1_pressed()
+void lightPlayer::on_IRu1Button_pressed()
 {
-    ToneSampleRateHz = 740;
+    ToneSampleRateHz = IRu1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_IR0_pressed()
+void lightPlayer::on_IR0Button_pressed()
 {
-    ToneSampleRateHz = 370;
+    ToneSampleRateHz = IR0;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_IRd1_pressed()
+void lightPlayer::on_IRd1Button_pressed()
 {
-    ToneSampleRateHz = 185;
+    ToneSampleRateHz = IRd1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_IRu1_released()
+void lightPlayer::on_IRu1Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_IR0_released()
+void lightPlayer::on_IR0Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_IRd1_released()
+void lightPlayer::on_IRd1Button_released()
 {
     toggleSuspendResume();
 }
 
 //---Red
-void lightPlayer::on_Ru1_pressed()
+void lightPlayer::on_Ru1Button_pressed()
 {
-    ToneSampleRateHz = 784;
+    ToneSampleRateHz = Ru1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_R0_pressed()
+void lightPlayer::on_R0Button_pressed()
 {
-    ToneSampleRateHz = 392;
+    ToneSampleRateHz = R0;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_Rd1_pressed()
+void lightPlayer::on_Rd1Button_pressed()
 {
-    ToneSampleRateHz = 196;
+    ToneSampleRateHz = Rd1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_Ru1_released()
+void lightPlayer::on_Ru1Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_R0_released()
+void lightPlayer::on_R0Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_Rd1_released()
+void lightPlayer::on_Rd1Button_released()
 {
     toggleSuspendResume();
 }
 
 
 //---Red/Orange
-void lightPlayer::on_ROu1_pressed()
+void lightPlayer::on_ROu1Button_pressed()
 {
-    ToneSampleRateHz = 830;
+    ToneSampleRateHz = ROu1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_RO0_pressed()
+void lightPlayer::on_RO0Button_pressed()
 {
-    ToneSampleRateHz = 415;
+    ToneSampleRateHz = RO0;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_ROd1_pressed()
+void lightPlayer::on_ROd1Button_pressed()
 {
-    ToneSampleRateHz = 208;
+    ToneSampleRateHz = ROd1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_ROu1_released()
+void lightPlayer::on_ROu1Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_RO0_released()
+void lightPlayer::on_RO0Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_ROd1_released()
+void lightPlayer::on_ROd1Button_released()
 {
     toggleSuspendResume();
 }
 
 //---Orange
-void lightPlayer::on_Ou1_pressed()
+void lightPlayer::on_Ou1Button_pressed()
 {
-    ToneSampleRateHz = 880;
+    ToneSampleRateHz = Ou1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_O0_pressed()
+void lightPlayer::on_O0Button_pressed()
 {
-    ToneSampleRateHz = 440;
+    ToneSampleRateHz = O0;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_Od1_pressed()
+void lightPlayer::on_Od1Button_pressed()
 {
-    ToneSampleRateHz = 220;
+    ToneSampleRateHz = Od1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_Ou1_released()
+void lightPlayer::on_Ou1Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_O0_released()
+void lightPlayer::on_O0Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_Od1_released()
+void lightPlayer::on_Od1Button_released()
 {
     toggleSuspendResume();
 }
 
 //---Yellow
-void lightPlayer::on_Yu1_pressed()
+void lightPlayer::on_Yu1Button_pressed()
 {
-    ToneSampleRateHz = 932;
+    ToneSampleRateHz = Yu1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_Y0_pressed()
+void lightPlayer::on_Y0Button_pressed()
 {
-    ToneSampleRateHz = 466;
+    ToneSampleRateHz = Y0;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_Yd1_pressed()
+void lightPlayer::on_Yd1Button_pressed()
 {
-    ToneSampleRateHz = 233;
+    ToneSampleRateHz = Yd1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_Yu1_released()
+void lightPlayer::on_Yu1Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_Y0_released()
+void lightPlayer::on_Y0Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_Yd1_released()
+void lightPlayer::on_Yd1Button_released()
 {
     toggleSuspendResume();
 }
 
 //---Yellow/Green
-void lightPlayer::on_YGu1_pressed()
+void lightPlayer::on_YGu1Button_pressed()
 {
-    ToneSampleRateHz = 988;
+    ToneSampleRateHz = YGu1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_YG0_pressed()
+void lightPlayer::on_YG0Button_pressed()
 {
-    ToneSampleRateHz = 494;
+    ToneSampleRateHz = YG0;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_YGd1_pressed()
+void lightPlayer::on_YGd1Button_pressed()
 {
-    ToneSampleRateHz = 247;
+    ToneSampleRateHz = YGd1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_YGu1_released()
+void lightPlayer::on_YGu1Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_YG0_released()
+void lightPlayer::on_YG0Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_YGd1_released()
+void lightPlayer::on_YGd1Button_released()
 {
     toggleSuspendResume();
 }
 
 //---Green
-void lightPlayer::on_Gu1_pressed()
+void lightPlayer::on_Gu1Button_pressed()
 {
-    ToneSampleRateHz = 1046;
+    ToneSampleRateHz = Gu1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_G0_pressed()
+void lightPlayer::on_G0Button_pressed()
 {
-    ToneSampleRateHz = 523;
+    ToneSampleRateHz = G0;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_Gd1_pressed()
+void lightPlayer::on_Gd1Button_pressed()
 {
-    ToneSampleRateHz = 262;
+    ToneSampleRateHz = Gd1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_Gu1_released()
+void lightPlayer::on_Gu1Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_G0_released()
+void lightPlayer::on_G0Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_Gd1_released()
+void lightPlayer::on_Gd1Button_released()
 {
     toggleSuspendResume();
 }
 
 //---Green/Blue
-void lightPlayer::on_GBu1_pressed()
+void lightPlayer::on_GBu1Button_pressed()
 {
-    ToneSampleRateHz = 1108;
+    ToneSampleRateHz = GBu1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_GB0_pressed()
+void lightPlayer::on_GB0Button_pressed()
 {
-    ToneSampleRateHz = 554;
+    ToneSampleRateHz = GB0;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_GBd1_pressed()
+void lightPlayer::on_GBd1Button_pressed()
 {
-    ToneSampleRateHz = 277;
+    ToneSampleRateHz = GBd1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_GBu1_released()
+void lightPlayer::on_GBu1Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_GB0_released()
+void lightPlayer::on_GB0Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_GBd1_released()
+void lightPlayer::on_GBd1Button_released()
 {
     toggleSuspendResume();
 }
 
 //---Blue
-void lightPlayer::on_Bu1_pressed()
+void lightPlayer::on_Bu1Button_pressed()
 {
-    ToneSampleRateHz = 1174;
+    ToneSampleRateHz = Bu1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_B0_pressed()
+void lightPlayer::on_B0Button_pressed()
 {
-    ToneSampleRateHz = 587;
+    ToneSampleRateHz = B0;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_Bd1_pressed()
+void lightPlayer::on_Bd1Button_pressed()
 {
-    ToneSampleRateHz = 294;
+    ToneSampleRateHz = Bd1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_Bu1_released()
+void lightPlayer::on_Bu1Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_B0_released()
+void lightPlayer::on_B0Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_Bd1_released()
+void lightPlayer::on_Bd1Button_released()
 {
     toggleSuspendResume();
 }
 
 //---Blue/Violet
-void lightPlayer::on_BVu1_pressed()
+void lightPlayer::on_BVu1Button_pressed()
 {
-    ToneSampleRateHz = 1244;
+    ToneSampleRateHz = BVu1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_BV0_pressed()
+void lightPlayer::on_BV0Button_pressed()
 {
-    ToneSampleRateHz = 622;
+    ToneSampleRateHz = BV0;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_BVd1_pressed()
+void lightPlayer::on_BVd1Button_pressed()
 {
-    ToneSampleRateHz = 311;
+    ToneSampleRateHz = BVd1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_BVu1_released()
+void lightPlayer::on_BVu1Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_BV0_released()
+void lightPlayer::on_BV0Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_BVd1_released()
+void lightPlayer::on_BVd1Button_released()
 {
     toggleSuspendResume();
 }
 
 //---Violet
-void lightPlayer::on_Vu1_pressed()
+void lightPlayer::on_Vu1Button_pressed()
 {
-    ToneSampleRateHz = 1320;
+    ToneSampleRateHz = Vu1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_V0_pressed()
+void lightPlayer::on_V0Button_pressed()
 {
-    ToneSampleRateHz = 660;
+    ToneSampleRateHz = V0;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_Vd1_pressed()
+void lightPlayer::on_Vd1Button_pressed()
 {
-    ToneSampleRateHz = 330;
+    ToneSampleRateHz = Vd1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_Vu1_released()
+void lightPlayer::on_Vu1Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_V0_released()
+void lightPlayer::on_V0Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_Vd1_released()
+void lightPlayer::on_Vd1Button_released()
 {
     toggleSuspendResume();
 }
 
 //---Ultra/Violet
-void lightPlayer::on_UVu1_pressed()
+void lightPlayer::on_UVu1Button_pressed()
 {
-    ToneSampleRateHz = 1400;
+    ToneSampleRateHz = UVu1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_UV0_pressed()
+void lightPlayer::on_UV0Button_pressed()
 {
-    ToneSampleRateHz = 700;
+    ToneSampleRateHz = UV0;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_UVd1_pressed()
+void lightPlayer::on_UVd1Button_pressed()
 {
-    ToneSampleRateHz = 350;
+    ToneSampleRateHz = UVd1;
     createAudioOutput();
     toggleSuspendResume();
 }
-void lightPlayer::on_UVu1_released()
+void lightPlayer::on_UVu1Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_UV0_released()
+void lightPlayer::on_UV0Button_released()
 {
     toggleSuspendResume();
 }
-void lightPlayer::on_UVd1_released()
+void lightPlayer::on_UVd1Button_released()
 {
     toggleSuspendResume();
 }
